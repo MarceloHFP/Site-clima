@@ -1,5 +1,5 @@
 //vars
-const apiKey = "6a28cdf122ca3d2679df54be5245f8d1";
+const apiKey = "";
 
 const cityInput = document.querySelector("#input");
 const searchButton = document.querySelector("#button");
