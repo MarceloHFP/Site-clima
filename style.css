@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #5fa2f5 0%, #005cfc 100%);
+}
+
+.hide {
+    display: none;
+}
+
+:root {
+    --blue: #1c4bf6;
+    --blue-mid: #0800ff;
+    --purple: #836ae9;
+    --purple-mid: #5c35f6;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 17%;
+    width: auto;
+    max-width: 300px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    background-color: var(--blue);
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}   
+
+.p {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.input-space {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.input-space #input {
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.input-space button {
+    background-color: var(--blue-mid);
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.input-space button:hover {
+    transition: background, color 0.4s;
+    background-color: white;
+    cursor: pointer;
+    color: var(--blue-mid);
+}
+
+#bottom-card {
+    height: 50%;
+    width: 300px;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.top-div {
+    height: 33%;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.top-div .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-div img {
+    max-height: 25px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: 20px
+}
+
+#description {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#weatherIcon {
+    min-height: 45px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.location p {
+    font-size: 17px;
+}
+
+.mid-div {
+    height: 34%;
+    width: 100%;
+}
+
+.temp-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+.temp {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.temp label {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp p {
+    display: flex;
+    justify-content: center;
+}
+
+.temp-container i {
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-div {
+    height: 33%;
+    width: 100%;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 18px;
+    color: white;
+}
+
+.details-container span {
+    margin-left: 10px;
+}
+
+#humidity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#wind {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
